@@ -67,7 +67,17 @@ footer {
   }
 }
 
+@media screen and (max-width: 540px) {
+  header .header_all .navbar ul li a {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  header .header_all .navbar ul li a {
+    font-size: 20px;
+  }
+
   footer {
     padding: 20px;
   }

@@ -117,9 +117,32 @@ header .navbar ul li a:hover {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .service_list {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .service_img img {
+    padding: 10px;
+    height: 230px;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   .section {
     width: 90%;
+  }
+
+  header .navbar ul {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  header .navbar ul li {
+    margin: 30px auto;
   }
 
   .service_wrap {

@@ -267,14 +267,90 @@ header .navbar ul li a:hover {
   .contact_acc_txt {
     font-size: 17px;
   }
+}
 
+@media screen and (max-width: 540px) {
+  .contact_wrap {
+    width: 70%;
+  }
 
+  .contact_wrap .ttl h3 {
+    font-size: 35px;
+  }
+
+  .contact_form_ttl {
+    font-size: 10px;
+  }
+
+  .contact_form_ttl::after {
+    width: 50px;
+    line-height: 20px;
+    font-size: 10px;
+    left: 90px;
+  }
+
+  .contact_form_box2 {
+    height: 30px;
+  }
+
+  .contact_form_box1 {
+    height: 36px;
+  }
+
+  .contact_form_ttl2 {
+    font-size: 10px;
+  }
+
+  .contact_txtarea {
+    height: 120px;
+    font-size: 11px;
+  }
+
+  .contact_btn {
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .contact_acc_map {
+    width: 380px;
+    clip-path: none;
+    margin-bottom: 320px;
+  }
+
+  .contact_acc_map iframe {
+    width: 100%;
+  }
+
+  .contact_acc_list {
+    transform: none;
+    top: 630px;
+    left: 60px;
+  }
+
+  .contact_acc_ttl {
+    font-size: 25px;
+  }
+
+  .contact_acc_txt {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .section {
     width: 90%;
     margin-bottom: 0;
+  }
+
+  header .navbar ul {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  header .navbar ul li {
+    margin: 30px auto;
   }
 
   .contact .container {

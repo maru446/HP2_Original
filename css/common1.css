@@ -24,6 +24,13 @@ li {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .inner {
+    max-width: 95%;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   header .drawer {
     visibility: visible;
@@ -65,7 +72,7 @@ li {
     top: 0;
     left: 0;
     z-index: 3;
-    background: #000;
+    background: orange;
   }
   
   header .navbar ul {
@@ -76,11 +83,11 @@ li {
   }
   
   header .navbar ul li {
-    width: 40%;
-    margin: 0 auto 20px;
+    width: 80%;
+    margin: 0 auto 30px;
     padding-right: 0;
     border-right: none;
-    border-bottom: solid 3px #75a9ff;
+    border-bottom: solid 3px #fff;
   }
   
   header .navbar ul li a {
